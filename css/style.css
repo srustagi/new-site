@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Staatliches&display=swap');
+
+* {
+	color: #F2F1EF;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: url('../img/dust-image.png'), #191919;
+}
+
+@media screen and (min-width:320px) {
+	.mobile-hide {
+		display: none;
+	}
+
+	.emphasis {
+		border-bottom: 1px solid #F2F1EF;
+		font-weight: 600;
+	}
+
+	header {
+		display: flex;
+		flex-direction: column;
+		margin: 20px;
+	}
+
+	header h1 {
+		font-family: 'Staatliches';
+		letter-spacing: 1.5px;
+		font-size: 36px;
+		display: block;
+		margin: 10px 10px 15px 0px;
+	}
+
+	header nav {
+		margin-top: 10px;
+	}
+
+	header nav a {
+		margin-right: 20px;
+	}
+
+	#content {
+		display: flex;
+		flex-direction: column;
+		margin: 20px;
+	}
+
+	#content p {
+		font-weight: 400;
+		line-height: 1.75;
+		font-size: 14px;
+		word-spacing: 1.5px;
+	}
+
+	.project:first-child {
+		margin-top: 30px;
+	}
+
+	.project {
+		border: 5px solid #F2F1EF;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+
+	.project .project-header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.project h3 {
+		font-family: 'Staatliches', cursive;
+		font-size: 24px;
+		margin: 0;
+		padding: 12px;
+		letter-spacing: 2px;
+		display: inline-block;
+	}
+
+	.project i {
+		display: inline-block;
+		font-size: 16px;
+		padding: 12px;
+		margin-top: 6px;
+	}
+
+	.project p {
+		display: inline-block;
+		font-size: 12px;
+		margin: 0;
+		padding: 0px 12px 12px 12px;
+	}
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px 0 0;
+	}
+
+	/* Create four equal columns that sits next to each other */
+	.column {
+		flex: 100%;
+		max-width: 100%;
+		padding: 0 4px 0 0;
+	}
+
+	.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:720px) {
+	.mobile-hide {
+		display: block;
+	}
+
+	.mobile-hide:first-child {
+		display: inline;
+	}
+
+	header, #content {
+		margin: 0 120px 0 120px;
+	}
+
+	header h1 {
+		letter-spacing: 2px;
+		font-size: 48px;
+		margin-top: 25px;
+	}
+
+	header nav {
+		margin-bottom: 20px;
+	}
+
+	header nav a {
+		margin-right: 35px;
+	}
+
+	.row {
+		padding: 15px;
+	}
+
+	.column {
+		flex: 45%;
+		max-width: 45%;
+		padding: 0 15px 0 0;
+	}
+
+	.column img {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (min-width:1080px) {
+	header, #content {
+		margin: 0 300px 0 300px;
+	}
+
+	#projects {
+		display: flex;
+		margin-top: 30px;
+	}
+
+	.project {
+		margin-right: 10px;
+	}
+
+	#content #projects .project:first-child {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width:1500px) {
+	header, #content {
+		margin: 0 500px 0 500px;
+	}
+}
