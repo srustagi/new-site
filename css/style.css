@@ -165,10 +165,13 @@ body {
 
 	#projects {
 		display: flex;
+		/*flex-direction: column;*/
 		margin-top: 30px;
 	}
 
 	.project {
+		flex: 100%;
+		max-width: 100%;
 		margin-right: 10px;
 	}
 
