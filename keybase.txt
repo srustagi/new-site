@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/srustagi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shivan.sh
+  * I am srustagi (https://keybase.io/srustagi) on keybase.
+  * I have a public key ASC82pyogDlEdg7kr67eEgHZcTuuzB1knuQqOz3SJr_EsAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201905bfdc838f99741cef0cf09761e9260b0f965ed0d91cdb4b0bf4a1b21f32570a",
+      "host": "keybase.io",
+      "kid": "0120bcda9ca8803944760ee4afaede1201d9713baecc1d649ee42a3b3dd226bfc4b00a",
+      "uid": "f64dad8e88b43538e666a894cf324a19",
+      "username": "srustagi"
+    },
+    "merkle_root": {
+      "ctime": 1592715206,
+      "hash": "f35fe26390fff684e197d6324e57860089121bfdf45ec24c3c7ac89ec648ed85823a2d42265964ab1d7de43f834e85f80845cf25ed5065744773dff2e98b9795",
+      "hash_meta": "e58690b96c47f678c8bd89f1bcade21cd9ea9c321eac002a7c4c7fe7a954f6f1",
+      "seqno": 16731478
+    },
+    "service": {
+      "entropy": "gqNTfRWDwfc1KeiZy31Hm3JK",
+      "hostname": "shivan.sh",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1592715271,
+  "expire_in": 504576000,
+  "prev": "82541a031f1a646d46a014b2a709a2ab6e3bdc61bfc5e0f2983c3fb297c807b6",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvNqcqIA5RHYO5K+u3hIB2XE7rswdZJ7kKjs90ia/xLAKp3BheWxvYWTESpcCD8QgglQaAx8aZG1GoBSypwmiq2473GG/xeDymDw/spfIB7bEIDUJclXev8zYJj9mOc4CrO4CLGx5fa73+qktMziqOnkXAgHCo3NpZ8RAII6Cg49acErg2zlR8PT8Z34ntDxE/m+TMvfV1op2ClmOmQaaWoRqXZW30Udn1bsNeNvqsp0CHXAdpxVNEN88CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIORlMbODPlAHz/o+iN+PONRv0+OzvXXRb733LpezUZzAo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/srustagi
+
+==================================================================
